@@ -28,7 +28,7 @@ module.exports = {
             })
         }))
 
-        // later; make sure it works w/o dbb installed in root npm 
+        // later; make sure it works w/o dbb installed in root npm adsfd
 
         console.log("Running DebugBear tests")
 
