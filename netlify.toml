@@ -1,2 +1,7 @@
 [[plugins]]
   package = "netlify-build-plugin-debugbear"
+
+[[redirects]]
+  from = "/about"
+  to = "/index.html"
+  status = 200
