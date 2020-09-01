@@ -23,7 +23,8 @@ module.exports = {
             dbb.pages.analyze(pageId, {
                 commitHash: COMMIT_REF,
                 commitBranch: HEAD,
-                baseUrl: PULL_REQUEST === "true" ? DEPLOY_URL : URL
+                baseUrl: PULL_REQUEST === "true" ? DEPLOY_URL : URL,
+                channel: "netlify"
             })
         }))
 
