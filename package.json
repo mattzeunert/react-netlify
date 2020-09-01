@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "lodash": "^4.17.20",
+    "netlify": "^4.3.12",
     "netlify-build-plugin-debugbear": "^1.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
