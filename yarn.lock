@@ -6417,6 +6417,13 @@ neo-async@^2.5.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
+netlify-build-plugin-debugbear@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/netlify-build-plugin-debugbear/-/netlify-build-plugin-debugbear-1.0.1.tgz#730c24397cab7077eb81f0a36386a4b15cfe23cf"
+  integrity sha512-9OsIp9X6cmGFJyFw+ELTZnQTKn6+QdJhGLx4dFkTh256PkAEYQgLMMLI1a8WWDnU/G1K/lJ3ML0F3peoBX7etA==
+  dependencies:
+    debugbear "^2.0.14"
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
