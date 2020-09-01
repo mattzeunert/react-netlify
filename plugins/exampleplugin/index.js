@@ -19,13 +19,14 @@ module.exports = {
         const dbb = new DebugBear(DEBUGBEAR_API_KEY)
         const pageIds = DEBUGBEAR_PAGE_IDS.split(",")
 
-        await Promise.all(pageIds.map(pageId => {
-            dbb.pages.analyze(pageId, {
+        await Promise.all(pageIds.map(async pageId => {
+            const r = await dbb.pages.analyze(pageId, {
                 commitHash: COMMIT_REF,
                 commitBranch: HEAD,
                 baseUrl: PULL_REQUEST === "true" ? DEPLOY_URL : URL,
                 channel: "netlify"
             })
+            console.log(`Started DebugBear test for page ${pageId}: ${r.url}`)
         }))
 
         // later; make sure it works w/o dbb installed in root npm adsfdaa
