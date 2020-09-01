@@ -7,7 +7,6 @@ const {
     HEAD,
     PULL_REQUEST,
     DEPLOY_URL,
-    URL,
     REPOSITORY_URL
 } = process.env
 
@@ -38,12 +37,16 @@ module.exports = {
             }
         }
 
+        let baseUrl
+        if (PULL_REQUEST === "true") {
+            baseUrl = DEPLOY_URL
+        }
         await Promise.all(pageIds.map(async pageId => {
             const r = await dbb.pages.analyze(pageId, {
                 commitHash: COMMIT_REF,
                 commitBranch: HEAD,
-                baseUrl: PULL_REQUEST === "true" ? DEPLOY_URL : URL,
                 channel: "netlify",
+                baseUrl,
                 repoName,
                 repoOwner
             })
