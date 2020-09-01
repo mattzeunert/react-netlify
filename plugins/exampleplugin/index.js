@@ -20,6 +20,8 @@ module.exports = {
             //     dbb.pages.analyze(pageId)
             // }))
 
+            // later; make sure it works w/o dbb installed in root npm 
+
             console.log("Running DebugBear tests")
         } catch (error) {
             return failBuild('DebugBear tests failed', { error })
