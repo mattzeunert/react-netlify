@@ -1,2 +1,2 @@
 [[plugins]]
-  package = "./plugins/exampleplugin"
+  package = "netlify-build-plugin-debugbear"
