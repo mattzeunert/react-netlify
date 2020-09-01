@@ -4,6 +4,11 @@ import './App.css';
 
 class App extends Component {
   render() {
+    if (window["location"].href.includes("/about")){
+      return <div className="App" style={{ paddingTop: 100 }}>
+        About my app
+      </div>
+    }
     return (
       <div className="App">
         <header className="App-header">

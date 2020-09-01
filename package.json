@@ -5,6 +5,7 @@
   "dependencies": {
     "debugbear": "^2.0.14",
     "lodash": "^4.17.20",
+    "netlify-build-plugin-debugbear": "^1.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
