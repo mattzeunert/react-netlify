@@ -12,9 +12,10 @@ const {
 
 
 module.exports = {
-    async onSuccess({utils}) {
+    async onSuccess({ utils }) {
         if (!DEBUGBEAR_API_KEY) {
-            throw Error("DEBUGBEAR_API_KEY environment variable needs to be set. Learn how to generate an API key for your project here: https://www.debugbear.com/docs/getting-started-api-cli")
+            utils.build.failPlugin("DEBUGBEAR_API_KEY environment variable needs to be set. Learn how to generate an API key for your project here: https://www.debugbear.com/docs/getting-started-api-cli")
+            return
         }
         if (!DEBUGBEAR_PAGE_IDS) {
             throw Error("DEBUGBEAR_PAGE_IDS environment variable needs to be set. Learn how to set find page IDs here: https://www.debugbear.com/docs/getting-started-api-cli#finding-the-page-id")
@@ -41,8 +42,6 @@ module.exports = {
         if (PULL_REQUEST === "true") {
             baseUrl = DEPLOY_URL
         }
-
-        let statusMessages = []
         await Promise.all(pageIds.map(async pageId => {
             const r = await dbb.pages.analyze(pageId, {
                 commitHash: COMMIT_REF,
@@ -52,13 +51,9 @@ module.exports = {
                 repoName,
                 repoOwner
             })
-            statusMessages.push(`Result for page ${pageId}: ${r.url}`)
+            console.log(`Started DebugBear test for page ${pageId}: ${r.url}`)
         }))
 
-        utils.status.show({
-            title: "DebugBear",
-            summary: "Tests are running, you should get results in a few minutes.",
-            text: statusMessages.join("\n")
-        })
+        console.log("DebugBear tests are running, results will be available in a few minutes.")
     }
 }
