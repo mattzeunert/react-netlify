@@ -1,5 +1,5 @@
 [[plugins]]
-  package = "/plugins/netlify-build-plugin-debugbear"
+  package = "netlify-build-plugin-debugbear"
 
 [[redirects]]
   from = "/about"
