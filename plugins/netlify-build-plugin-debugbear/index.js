@@ -56,7 +56,7 @@ module.exports = {
             console.log(`Started DebugBear test for page ${pageId}: ${r.url}`)
         }))
 
-        utils.build.show({
+        utils.status.show({
             summary: "SUMMARY",
             text: "http://example.com"
         })
