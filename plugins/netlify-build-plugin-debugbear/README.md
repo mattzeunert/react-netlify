@@ -1,6 +1,6 @@
 # DebugBear Netlify Build Plugin
 
-This Build Plugin automatically tests each Netlify deployment with DebugBear. This allows you to see how the changes you've made affect page performance and Lighthouse scores.
+This Build Plugin automatically tests each Netlify deployment with DebugBear. This allows you to see how your changes have affected page performance and Lighthouse scores.
 
 You need a [DebugBear](https://www.debugbear.com) account to use this plugin.
 
@@ -10,7 +10,7 @@ You need a [DebugBear](https://www.debugbear.com) account to use this plugin.
 
 1. Install DebugBear Build Plugin
 
-```npm install netlify-build-plugin-debugbear```
+```yarn add netlify-build-plugin-debugbear```
 
 2. Add the plugin in your netlify.toml file:
 

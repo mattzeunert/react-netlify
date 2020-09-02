@@ -19,9 +19,11 @@ module.exports = {
         }
         if (!DEBUGBEAR_PAGE_IDS) {
             utils.build.failPlugin("DEBUGBEAR_PAGE_IDS environment variable needs to be set. Learn how to set find page IDs here: https://www.debugbear.com/docs/getting-started-api-cli#finding-the-page-id")
+            return
         }
         if (!/^[0-9,]+$/.test(DEBUGBEAR_PAGE_IDS)) {
             utils.build.failPlugin(`DEBUGBEAR_PAGE_IDS needs to be a list of comma-separated numbers, but found '${DEBUGBEAR_PAGE_IDS}'`)
+            return
         }
 
         const dbb = new DebugBear(DEBUGBEAR_API_KEY)
