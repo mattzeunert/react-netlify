@@ -6990,10 +6990,10 @@ nested-error-stacks@^2.0.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-netlify-build-plugin-debugbear@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/netlify-build-plugin-debugbear/-/netlify-build-plugin-debugbear-1.0.1.tgz#730c24397cab7077eb81f0a36386a4b15cfe23cf"
-  integrity sha512-9OsIp9X6cmGFJyFw+ELTZnQTKn6+QdJhGLx4dFkTh256PkAEYQgLMMLI1a8WWDnU/G1K/lJ3ML0F3peoBX7etA==
+netlify-build-plugin-debugbear@^1.0.4:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/netlify-build-plugin-debugbear/-/netlify-build-plugin-debugbear-1.0.6.tgz#e64257054c15bdce35fb55618482c0db396bbb6f"
+  integrity sha512-aH3Ejv+/uLdOq524i1cUrmIrcSu6Eui0RBP1b0M0vj87KZSNFhyVGED2UC2KIAWWRZsuFyeuA4cC9zX6krlcIA==
   dependencies:
     debugbear "^2.0.14"
 
@@ -11081,9 +11081,9 @@ xtend@~4.0.0:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 "y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
   version "4.0.0"
