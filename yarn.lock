@@ -6652,9 +6652,9 @@ memory-fs@^0.4.0, memory-fs@~0.4.1:
     readable-stream "^2.0.1"
 
 merge-deep@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.2.tgz#f39fa100a4f1bd34ff29f7d2bf4508fbb8d83ad2"
-  integrity sha512-T7qC8kg4Zoti1cFd8Cr0M+qaZfOwjlPDEdZIIPPB2JZctjaPM4fX+i7HOId69tAti2fvO6X5ldfYUONDODsrkA==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.3.tgz#1a2b2ae926da8b2ae93a0ac15d90cd1922766003"
+  integrity sha512-qtmzAS6t6grwEkNrunqTBdn0qKwFgNWvlxUbAV8es9M7Ot1EbyApytCnvE0jALPa46ZpKDUo527kKiaWplmlFA==
   dependencies:
     arr-union "^3.1.0"
     clone-deep "^0.2.4"
@@ -6990,10 +6990,10 @@ nested-error-stacks@^2.0.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-netlify-build-plugin-debugbear@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/netlify-build-plugin-debugbear/-/netlify-build-plugin-debugbear-1.0.1.tgz#730c24397cab7077eb81f0a36386a4b15cfe23cf"
-  integrity sha512-9OsIp9X6cmGFJyFw+ELTZnQTKn6+QdJhGLx4dFkTh256PkAEYQgLMMLI1a8WWDnU/G1K/lJ3ML0F3peoBX7etA==
+netlify-build-plugin-debugbear@^1.0.4:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/netlify-build-plugin-debugbear/-/netlify-build-plugin-debugbear-1.0.6.tgz#e64257054c15bdce35fb55618482c0db396bbb6f"
+  integrity sha512-aH3Ejv+/uLdOq524i1cUrmIrcSu6Eui0RBP1b0M0vj87KZSNFhyVGED2UC2KIAWWRZsuFyeuA4cC9zX6krlcIA==
   dependencies:
     debugbear "^2.0.14"
 
