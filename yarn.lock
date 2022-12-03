@@ -3070,9 +3070,9 @@ decamelize@^2.0.0:
     xregexp "4.0.0"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.0.1"
@@ -6990,10 +6990,10 @@ nested-error-stacks@^2.0.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-netlify-build-plugin-debugbear@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/netlify-build-plugin-debugbear/-/netlify-build-plugin-debugbear-1.0.1.tgz#730c24397cab7077eb81f0a36386a4b15cfe23cf"
-  integrity sha512-9OsIp9X6cmGFJyFw+ELTZnQTKn6+QdJhGLx4dFkTh256PkAEYQgLMMLI1a8WWDnU/G1K/lJ3ML0F3peoBX7etA==
+netlify-build-plugin-debugbear@^1.0.4:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/netlify-build-plugin-debugbear/-/netlify-build-plugin-debugbear-1.0.6.tgz#e64257054c15bdce35fb55618482c0db396bbb6f"
+  integrity sha512-aH3Ejv+/uLdOq524i1cUrmIrcSu6Eui0RBP1b0M0vj87KZSNFhyVGED2UC2KIAWWRZsuFyeuA4cC9zX6krlcIA==
   dependencies:
     debugbear "^2.0.14"
 
